@@ -3,7 +3,7 @@
 	<info>
 		<name>Homebrew</name>
 		<update version="0.1.0">
-			<file name="homebrew.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew.xml" />
+			<file name="homebrew.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew/homebrew.xml" />
 		</update>
 	</info>
 
