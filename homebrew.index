@@ -7,7 +7,7 @@
     </update>
   </info>
   <files>
-    <file name="homebrew.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew.xml" />
+    <file name="homebrew.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew/homebrew.xml" />
 
   </files>
 </index>
