@@ -6,11 +6,11 @@
         <file name="feats.xml" url="" />
         </update>
     </info>
-    <element name="Bountiful Luck" type="Feat" source="Homebrew" id="ID_WOTC_XGTE_FEAT_BOUNTIFUL_LUCK">
-        <prerequisite>Halfling</prerequisite>
-        <requirements>ID_RACE_HALFLING</requirements>
+    <element name="Bountiful Luck" type="Feat" source="Homebrew" id="ID_WIKI_FEAT_BOUNTIFUL_LUCK">
+        <prerequisite>Evnir</prerequisite>
+        <requirements>ID_RACE_EVNIR</requirements>
         <description>
-            <p><i>Prerequisite: Halfling</i></p>
+            <p><i>Prerequisite: Evnir</i></p>
             <p>Your people have extraordinary luck, which you have learned to mystically lend to your companions when you see them falter. You’re not sure how you do it; you just wish it, and it happens. Surely a sign of fortune’s favor!</p>
             <p class="indent">When an ally you can see within 30 feet of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.</p>
             <p class="indent">When you use this ability, you can’t use your Lucky racial trait before the end of your next turn.</p>
@@ -41,16 +41,35 @@
         </rules>
     </element>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-</element>
+	<!--
+Replacement Springs: Forgoing the original springs you were built with, you had a different makeup of springs installed to help keep your gears moving. Rather than having a large winding key sticking from your back now, you carry around a small device that winds a series of increasingly larger springs that power you. The device can easily be kept hidden in a small compartment somewhere on your body.
+Your Constitution score increases by 1.
+You can continue to operate for a number of days equal to twice your proficiency bonus before needing to rewind yourself.
+You may add half your proficiency bonus rounded down, minimum of 1, to your initiative bonus.
+
+Built in Weaponry: All it took was reworking some of the gears inside of an area of your body to conceal a weapon that you can deploy and use when you need it.
+Your Dexterity score increases by 1.
+You have a weapon that can be deployed or hidden using a bonus action from an area of your choice on your body such as your arm, wrist, foot, or hand. This weapon must have the light weapon property and once deployed may be removed for throwing or other needs.
+Due to the alteration on your body, the place where the blade is hidden can be spotted with a Wisdom (Perception) check contested by either a Charisma (Deception) or Dexterity (Stealth) check.
+
+Stealth Augment: All of the gears and springs that made noise inside of your body are replaced with gears that run much smoother and quieter, allowing you to hide with ease without the worry of being given away by your internal makeup. During this upgrade, you also were able to improve your ability to remain through the silencing of footsteps and other alterations.
+Your Dexterity score increases by 1.
+You no longer make noise while in operation. You are no longer suffer from disadvantage on Dexterity (Stealth) checks due to your Sound of Gears trait.
+You gain proficiency in the Stealth skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.
+
+Refractive Plating: The plating that covers everything on an Evnir's body is replaced with plating that is capable of bending light so that you may blend into your surroundings.
+Your Dexterity score increases by 1.
+As an action, you can become invisible for 1 minute. Each time you use this feature you lose one days worth of time before you need to rewind your key. If you only have a day left worth of time or less you cannot use this feature.
+
+Enhanced Optics: Replacing the eyes that they were originally made with, these are made to adapt better to the conditions that they've found themselves in.
+Your Wisdom score increases by 1.
+You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.
+
+Lightweight Materials: All of the outside plating, along with all of the heavier gears and systems inside of the Evnir are replaced with lighter materials, giving the Evnir more mobility and weight more comparable to an average human.
+Your Dexterity score increases by 1.
+You gain a swimming speed equal to your walking speed and no longer sink while in water.
+You can take the dash action as a bonus action.
+-->
+
 	
