@@ -65,12 +65,13 @@ Enhanced Optics: Replacing the eyes that they were originally made with, these a
 Your Wisdom score increases by 1.
 You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
 You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.
+<rules>
 <stat name="persuasion:proficiency" value="proficiency" bonus="double" alt="Double Proficiency" />
+<stat name="strength" value="1" />
+</rules>
 
 Lightweight Materials: All of the outside plating, along with all of the heavier gears and systems inside of the Evnir are replaced with lighter materials, giving the Evnir more mobility and weight more comparable to an average human.
 Your Dexterity score increases by 1.
 You gain a swimming speed equal to your walking speed and no longer sink while in water.
 You can take the dash action as a bonus action.
 -->
-
-	
