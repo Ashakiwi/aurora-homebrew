@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Elf</name>
+		<description></description>
+		<author url="https://www.dandwiki.com/wiki/Evnir_(5e_Race)">DandD Wiki: Homebrew</author>
+		<update version="0.1.9">
+			<file name="race-evnir.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Evnir" type="Race" source="Homebrew" id="ID_RACE_EVNIR">
+		<description>
+			<p class="flavor">“Do you know where they came from?” Sigmund said as he watched the small group of Evnir headed off down the road to the next town.<br>
+			The other merchant shrugged, “Never seen anything like it. Mechanical beings that act just like humans... think they'll be back?” <br>
+			Kien smirked, “Why? One of them strikes your fancy already?”<br>
+			“No! … Alright maybe, but that's beside the point. If they get this trade route set up, think of what it'd mean for the town. No one else has bothered to help us, why would they?”<br>Kien shrugged going back into the shop as he spoke, “Maybe they want to fit in? Now c'mon Sigmund, your metal girlfriend will come back. We still have work to do.”<br>
+			Sigmund followed after rolling his eyes, “She'd probably be easier to woo than that orc you went after last month...”</p>
+			<h4>Physical Description</h4>
+			<p>Evnir appear to be finely crafted mechanical beings that closely resemble humans in appearance aside from some noticeable details. Their 'skin' appears to be a pale white color, balled joints making up all of their joints, but fitting into the plates that make up their arms, legs, and body almost seamlessly with very little room, if any, for anything to get inside of the joint. </p>
+			<p class="indent">They have artificial hair that ranges in style and length, though the color always has a metallic tone to it often shimmering in bright light. An Evnir's eyes appear to be normal at a casual glance, but closer inspection reveals that the inner working of their eyes are carefully made mechanical irises with each Evnir having a unique color. Every Evnir has a winding key that sits in the middle of their back akin to a wind-up toy and every winding key on each Evnir is unique with each of the keys having elaborate designs on them and the key only being able to fit into the Evnir it was designed for. The keys are normally only made of common metals, with the rare metals only appearing very rarely on specific Evnir</p>
+			<p class="indent">Every Evnir has a winding key that sits in the middle of their back akin to a wind-up toy and every winding key on each Evnir is unique with each of the keys having elaborate designs on them and the key only being able to fit into the Evnir it was designed for. The keys are normally only made of common metals, with the rare metals only appearing very rarely on specific Evnir</p>
+			<p class="indent">Evnir only difference in gender comes from the difference in their external body structure with the 'males' tending to be taller with larger chest cavities and 'females' being smaller with slimmer frames though no less capable than their counterparts. Evnir do not distinguish themselves as male or female, although when others do distinguish them as a particular 'gender', an Evnir will usually go along with it, curious to understand the difference or what being part of such gender means.</p>
+			<p class="indent">An Evnir's voice has a distinct metallic ringing sound to it. Their voices vary in pitch and tone, with the ringing matching the pitch of their voice and usually comes off as a pleasant accompanying sound with their speech, though this makes it difficult for them to mimic other people's voices.</p>
+			<h4>History</h4>
+			<p>Evnir come from an unknown place, made by an unknown creator. Every time they appear, it is almost always from an underground cave or other hidden areas, with all of them becoming active at the same time. The number of them that 'come to life' varies but once they are introduced into an area, it's very rare to ever see any new Evnir appear. After activation, they're fully aware of themselves and begin to investigate their surroundings and determine what it is they need to do next. </p>
+			<p class="indent">Most of them traveling in small groups and expanding out from where they've awoken and trying to introduce and integrate themselves into the society that they've found themselves in. They're typically non-violent, only resorting to violence when necessary to protect themselves or those who they've grown to care for. Although they're also known for their love of adventure and exploring, not ever hesitating to venture out into the world and discover everything they can.</p>
+			<h4>Society</h4>
+			<p>Evnir have no specific homeland of their own, because of this they tend to integrate themselves into whatever society they find nearby, almost going out of their way to ingratiate themselves with locals to ensure that they can survive in the environment they find themselves in. They don't discriminate among who they meet either, enjoying talking and learning about any race they come across, usually asking if they need any assistance so that they can gain a people's trust.</p>
+			<h4>EVNIR NAMES</h4>
+			<p>Evnir have no set naming conventions, deciding among themselves what they feel fits for themselves after they've been activated.</p>
+			<p class="indent">Their information on how they name themselves, they believe, was preset into them before they were activated and Evnir has speculated that their ideas for naming themselves come from whatever their creator was and what names they liked. Collectively they decide what their 'surname' will be, most surnames they choose will be closely related to a metal.</p>
+			<p>
+			<span class="feature">Male Names:</span> Tonrec, Joslil, Daero, Kasver, Garrus, Theren, Felver, Corvon, Sedar, Yeros<br />
+			<span class="feature">Female Names:</span>Nua, Seldra, Aradi, Isonoa, Kattyn, Encyne, Ceri, Keldrey, Elinvar, Orla<br />
+			<span class="feature">Surnames:</span>Stellus, Ironun, Tinure, Copperia, Silvey, Lithi, Caesi, Radis, Vanad, Galli
+			</p>
+			<h4>EVNIR TRAITS</h4>
+			<p>A clockwork race of unknown origins, even to themselves.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Evnir are all 'activated' at the same time and are considered adults at such time. They live on average of 200 years but can last as long as 600 years if meticulously maintained and upgraded.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Most Evnir tend towards good or neutral alignments, wanting to integrate and blend into the societies of the people they meet with.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Evnir range from 5-6 feet in height. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet. You sink in water as if your speed was 0 and you were falling.</p>
+			<p class="indent"><strong><em>A Machine's Toolkit.</em></strong> You gain proficiency with a set artisan's tools of your choice.</p>
+			<p class="indent"><strong><em>Living Construct.</em></strong> Even though you were constructed, you are a living creature. Your creature type is both construct and humanoid. You are immune to diseases and being poisoned. You do not need to eat or breathe, but you can ingest food and drink if you wish. Instead of sleeping, an Evnir needs to wind the key that is in its back along with performing regular maintenance on their body this takes 4 hours each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. An Evnir can go a number of days without winding their key equal to their proficiency bonus, if they fail to wind their key after a number of days equal to their proficiency bonus then they fall unconscious until their key is wound back up. In addition, instead of a Wisdom (Medicine) check a Intelligence check or an Intelligence (Tinker's Tools) check is needed to stabilize you.</p>
+			<p class="indent"><strong><em>Flexible.</em></strong> You can take the Dodge action as a bonus action a number of times equal to your Dexterity modifier(minimum 1). You regain all expanded uses of this trait when you complete a long rest.</p>
+			<p class="indent"><strong><em>Sounds of Gears.</em></strong> The subtle sound of moving gears, springs and other mechanical components surround you, causing you to have disadvantage on Dexterity (Stealth) checks.</p>
+			<p class="indent"><strong><em>Mendable.</em></strong>When the mending spell is cast on you and you have 0 hit points you become stable. Alternatively, as part of the casting of mending, the caster may expend one of their spell slots, causing you to regain a number of hit points equal to 1d8 + their spellcasting ability modifier; when this is done using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> Evnir's internal construction tend to lean towards specific abilities. As to whether or not Evnir actually follow their internal makeup is entirely up to them, though if they do, they find themselves able to perform above what would be considered the average.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Tonrec, Joslil, Daero, Kasver, Garrus, Theren, Felver, Corvon, Sedar, Yeros</set>
+			<set name="names" type="female">Nua, Seldra, Aradi, Isonoa, Kattyn, Encyne, Ceri, Keldrey, Elinvar, Orla</set>
+			<set name="names" type="family">Stellus, Ironun, Tinure, Copperia, Silvey, Lithi, Caesi, Radis, Vanad, Galli</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">300 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" requirements="!ID_UA_PSK_GRANTS_EVNIR_SUBRACE" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<stat name="speed:swim" value="0" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MACH_TOOLKIT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIVING_CONSTRUCT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLEXIBLE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SOUND_OF_GEARS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MENDABLE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EVNIR_SUBRACE" />
+		</rules>
+	</element>
+	<element name="A Machine's Toolkit" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MACH_TOOLKIT">
+		<description>
+			<p>You gain proficiency with a set artisan's tools of your choice.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in a set of artisan's tools.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Artisan Tool, Evnir" supports="Artisan tools" requirements="!ID_RACE_EVNIR" />
+		</rules>
+	</element>
+	<element name="Living Construct" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_LIVING_CONSTRUCT">
+		<description>
+			<p>Even though you were constructed, you are a living creature. Your creature type is both construct and humanoid. You are immune to diseases and being poisoned. You do not need to eat or breathe, but you can ingest food and drink if you wish. Instead of sleeping, an Evnir needs to wind the key that is in its back along with performing regular maintenance on their body this takes 4 hours each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. An Evnir can go a number of days without winding their key equal to their proficiency bonus, if they fail to wind their key after a number of days equal to their proficiency bonus then they fall unconscious until their key is wound back up. In addition, instead of a Wisdom (Medicine) check a Intelligence check or an Intelligence (Tinker's Tools) check is needed to stabilize you.</p>
+		</description>
+		<sheet>
+			<description>Immune to: Disease and Poisoned. You can eat food and drink if you wish, but do not need to. You do not need to sleep, you need to wind your key and perform regular maintenance (4 hours) each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. You can go a number of days equal to your proficiency bonus without winding your key. If you do not wind key, you fall unconscious until key is wound.</description>
+		</sheet>
+	</element>
+	<element name="Flexible" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FLEXIBLE">
+		<description>
+			<p>You can take the Dodge action as a bonus action a number of times equal to your Dexterity modifier(minimum 1). You regain all expanded uses of this trait when you complete a long rest.</p>
+		</description>
+		<sheet>
+			<description>Evnir can take the Dodge action as a bonus action a number of times equal to Dexterity modifier(minimum 1). Regain expended uses after a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Sound of Gears" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SOUND_OF_GEARS">
+		<description>
+			<p>The subtle sound of moving gears, springs and other mechanical components surround you, causing you to have disadvantage on Dexterity (Stealth) checks.</p>
+		</description>
+		<sheet>
+			<description>Evnir can take the Dodge action as a bonus action a number of times equal to Dexterity modifier(minimum 1). Regain expended uses after a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Mendable" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MENDABLE">
+		<description>
+			<p>When the mending spell is cast on you and you have 0 hit points you become stable. Alternatively, as part of the casting of mending, the caster may expend one of their spell slots, causing you to regain a number of hit points equal to 1d8 + their spellcasting ability modifier; when this is done using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>
+		</description>
+		<sheet>
+			<description>Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day.</description>
+		</sheet>
+	</element>
+	<element name="Elven Subrace" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_ELVEN_SUBRACE">
+		<description>
+			<p>Ancient divides among the elven people resulted in three main subraces: high elves, wood elves, and dark elves, who are commonly called drow. Choose one of these subraces. In some worlds, these subraces are divided still further (such as the sun elves and moon elves of the Forgotten Realms), so if you wish, you can choose a narrower subrace.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Evnir Subrace" supports="Evnir" />
+		</rules>
+	</element>
+
+	<element name="High Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_HIGH_ELF">
+		<supports>Evnir</supports>
+		<description>
+			<p>As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&amp;D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk. the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races. The sun elves of Faerûn (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Elf Weapon Training.</em></strong> You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+			<p class="indent"><strong><em>Cantrip.</em></strong> You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
+			<p class="indent"><strong><em>Extra Language.</em></strong> You can speak, read, and write one extra language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CANTRIP" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE" />
+		</rules>
+	</element> 	
+	<element name="Elf Weapon Training" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the longsword, shortsword, shortbow, and longbow.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+		</rules>
+	</element>
+	<element name="Cantrip" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_CANTRIP">
+		<description>
+			<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
+		</description>
+		<sheet display="false">
+			<description>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Wizard Cantrip (High Elf)" supports="Wizard&amp;&amp;0" />
+		</rules>
+	</element>
+	<element name="Extra Language" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE">
+		<description>
+			<p>You can speak, read, and write one extra language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Language" name="Language (Elf)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+
+	<element name="Wood Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_WOOD_ELF">
+		<supports>Evnir</supports>
+		<description>
+			<p>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Elf Weapon Training.</em></strong> You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+			<p class="indent"><strong><em>Fleet of Foot.</em></strong> Your base walking speed increases to 35 feet.</p>
+			<p class="indent"><strong><em>Mask of the Wild.</em></strong> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+		</rules>
+	</element>
+	<element name="Fleet of Foot" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT">
+		<description>
+			<p>Your base walking speed increases to 35 feet.</p>
+		</description>
+		<sheet display="false">
+			<description>Your speed increases to 35 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="35" bonus="base" />
+		</rules>
+	</element>
+	<element name="Mask of the Wild" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD">
+		<description>
+			<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+		</description>
+		<sheet>
+			<description>You can attempt to hide even when you are only lightly obscured.</description>
+		</sheet>
+	</element>
+
+	<element name="Dark Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_DARK_ELF">
+		<supports>Evnir</supports>
+		<description>
+			<p>Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.</p>
+			<p class="indent">Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Superior Darkvision.</em></strong> Your darkvision has a radius of 120 feet.</p>
+			<p class="indent"><strong><em>Sunlight Sensitivity.</em></strong> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+			<p class="indent"><strong><em>Drow Magic.</em></strong> You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Drow Weapon Training.</em></strong> You have proficiency with rapiers, shortswords, and hand crossbows.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d6">4'5"</set>
+			<set name="weight" modifier="1d6">75 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" />
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_MAGIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING" />
+		</rules>
+	</element>
+	<element name="Sunlight Sensitivity" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY">
+		<description>
+			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+		</description>
+		<sheet>
+			<description>You have disadvantage on attack rolls and on Perception checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+		</sheet>
+	</element>
+	<element name="Drow Magic" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DROW_MAGIC">
+		<description>
+			<p>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>Dancing Lights. (Spellcasting: Charisma)</description>
+			<description level="3">1/day Dancing Lights and Faerie Fire. (Spellcasting: Charisma)</description>
+			<description level="5">1/day Dancing Lights, Faerie Fire, and Darkness. (Spellcasting: Charisma)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" />
+		</rules>
+	</element>
+	<element name="Drow Weapon Training" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with rapiers, shortswords, and hand crossbows.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with rapiers, shortswords, and hand crossbows.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+		</rules>
+	</element>
+</elements>
