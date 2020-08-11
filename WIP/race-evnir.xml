@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Elf</name>
+		<name>Evnir</name>
 		<description></description>
 		<author url="https://www.dandwiki.com/wiki/Evnir_(5e_Race)">DandD Wiki: Homebrew</author>
 		<update version="0.1.9">
@@ -11,10 +11,10 @@
 
 	<element name="Evnir" type="Race" source="Homebrew" id="ID_RACE_EVNIR">
 		<description>
-			<p class="flavor">“Do you know where they came from?” Sigmund said as he watched the small group of Evnir headed off down the road to the next town.<br>
-			The other merchant shrugged, “Never seen anything like it. Mechanical beings that act just like humans... think they'll be back?” <br>
-			Kien smirked, “Why? One of them strikes your fancy already?”<br>
-			“No! … Alright maybe, but that's beside the point. If they get this trade route set up, think of what it'd mean for the town. No one else has bothered to help us, why would they?”<br>Kien shrugged going back into the shop as he spoke, “Maybe they want to fit in? Now c'mon Sigmund, your metal girlfriend will come back. We still have work to do.”<br>
+			<p class="flavor">“Do you know where they came from?” Sigmund said as he watched the small group of Evnir headed off down the road to the next town.<br />
+			The other merchant shrugged, “Never seen anything like it. Mechanical beings that act just like humans... think they'll be back?” <br />
+			Kien smirked, “Why? One of them strikes your fancy already?”<br />
+			“No! … Alright maybe, but that's beside the point. If they get this trade route set up, think of what it'd mean for the town. No one else has bothered to help us, why would they?”<br />Kien shrugged going back into the shop as he spoke, “Maybe they want to fit in? Now c'mon Sigmund, your metal girlfriend will come back. We still have work to do.”<br />
 			Sigmund followed after rolling his eyes, “She'd probably be easier to woo than that orc you went after last month...”</p>
 			<h4>Physical Description</h4>
 			<p>Evnir appear to be finely crafted mechanical beings that closely resemble humans in appearance aside from some noticeable details. Their 'skin' appears to be a pale white color, balled joints making up all of their joints, but fitting into the plates that make up their arms, legs, and body almost seamlessly with very little room, if any, for anything to get inside of the joint. </p>
@@ -73,7 +73,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EVNIR_SUBRACE" />
 		</rules>
 	</element>
-	<element name="A Machine's Toolkit" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MACH_TOOLKIT">
+	<element name="A Machine's Toolkit" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_MACH_TOOLKIT">
 		<description>
 			<p>You gain proficiency with a set artisan's tools of your choice.</p>
 		</description>
@@ -84,7 +84,7 @@
 			<select type="Proficiency" name="Artisan Tool, Evnir" supports="Artisan tools" requirements="!ID_RACE_EVNIR" />
 		</rules>
 	</element>
-	<element name="Living Construct" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_LIVING_CONSTRUCT">
+	<element name="Living Construct" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_LIVING_CONSTRUCT">
 		<description>
 			<p>Even though you were constructed, you are a living creature. Your creature type is both construct and humanoid. You are immune to diseases and being poisoned. You do not need to eat or breathe, but you can ingest food and drink if you wish. Instead of sleeping, an Evnir needs to wind the key that is in its back along with performing regular maintenance on their body this takes 4 hours each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. An Evnir can go a number of days without winding their key equal to their proficiency bonus, if they fail to wind their key after a number of days equal to their proficiency bonus then they fall unconscious until their key is wound back up. In addition, instead of a Wisdom (Medicine) check a Intelligence check or an Intelligence (Tinker's Tools) check is needed to stabilize you.</p>
 		</description>
@@ -92,7 +92,7 @@
 			<description>Immune to: Disease and Poisoned. You can eat food and drink if you wish, but do not need to. You do not need to sleep, you need to wind your key and perform regular maintenance (4 hours) each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. You can go a number of days equal to your proficiency bonus without winding your key. If you do not wind key, you fall unconscious until key is wound.</description>
 		</sheet>
 	</element>
-	<element name="Flexible" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FLEXIBLE">
+	<element name="Flexible" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_FLEXIBLE">
 		<description>
 			<p>You can take the Dodge action as a bonus action a number of times equal to your Dexterity modifier(minimum 1). You regain all expanded uses of this trait when you complete a long rest.</p>
 		</description>
@@ -100,7 +100,7 @@
 			<description>Evnir can take the Dodge action as a bonus action a number of times equal to Dexterity modifier(minimum 1). Regain expended uses after a long rest.</description>
 		</sheet>
 	</element>
-	<element name="Sound of Gears" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SOUND_OF_GEARS">
+	<element name="Sound of Gears" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SOUND_OF_GEARS">
 		<description>
 			<p>The subtle sound of moving gears, springs and other mechanical components surround you, causing you to have disadvantage on Dexterity (Stealth) checks.</p>
 		</description>
@@ -108,7 +108,7 @@
 			<description>Evnir can take the Dodge action as a bonus action a number of times equal to Dexterity modifier(minimum 1). Regain expended uses after a long rest.</description>
 		</sheet>
 	</element>
-	<element name="Mendable" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MENDABLE">
+	<element name="Mendable" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_MENDABLE">
 		<description>
 			<p>When the mending spell is cast on you and you have 0 hit points you become stable. Alternatively, as part of the casting of mending, the caster may expend one of their spell slots, causing you to regain a number of hit points equal to 1d8 + their spellcasting ability modifier; when this is done using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>
 		</description>
@@ -116,9 +116,9 @@
 			<description>Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day.</description>
 		</sheet>
 	</element>
-	<element name="Elven Subrace" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_ELVEN_SUBRACE">
+	<element name="Elven Subrace" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_EVNIR_SUBRACE">
 		<description>
-			<p>Ancient divides among the elven people resulted in three main subraces: high elves, wood elves, and dark elves, who are commonly called drow. Choose one of these subraces. In some worlds, these subraces are divided still further (such as the sun elves and moon elves of the Forgotten Realms), so if you wish, you can choose a narrower subrace.</p>
+			<p>Evnir's internal construction tend to lean towards specific abilities. As to whether or not Evnir actually follow their internal makeup is entirely up to them, though if they do, they find themselves able to perform above what would be considered the average.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -126,42 +126,39 @@
 		</rules>
 	</element>
 
-	<element name="High Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_HIGH_ELF">
+	<element name="Mechanic" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_MECHANIC">
 		<supports>Evnir</supports>
 		<description>
-			<p>As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&amp;D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk. the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races. The sun elves of Faerûn (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.</p>
+			<p>These Evnir are more skilled with their hands than the rest, able to work on all various types of things, from forging to sewing they manipulate things with precision and skill that would normally come from years of practice. Mechanics tend to be more reserved and quiet, not venturing too far from towns or their own shops. Some are known to want to experience the world they're placed in, eager to see just how much they can find and create throughout the land.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
-			<p class="indent"><strong><em>Elf Weapon Training.</em></strong> You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
-			<p class="indent"><strong><em>Cantrip.</em></strong> You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
-			<p class="indent"><strong><em>Extra Language.</em></strong> You can speak, read, and write one extra language of your choice.</p>
+			<p class="indent"><strong><em>Creator.</em></strong> You have proficiency with Tinker's tools. Using those tools, you can spend 1 hour and 20gp worth of materials you can construct a Tiny clockwork device that serves a specific, simple function. They have an Armor Class of 6 and 2 hit points. The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.</p>
+			<p class="indent"><strong><em>Creator: Messenger.</em></strong> These constructs are kept small to be discreet, allowing them to travel unseen and deliver messages to whomever they were assigned to without being noticed. The message they carry can either be vocal or written, depending on the situation and once the message is delivered, and the recipient confirms they heard it, it immediately returns to its creator. This device has a walking speed of 10 feet and a flying speed of 30 feet.</p>
+			<p class="indent"><strong><em>Creator: Delivery.</em></strong> Usually made into the form of small animals or basic, bipedal machines with a compartment for holding whatever needs to be delivered. Once the parcel is received by its recipient it will return to its creator and it will only take a couple hours to reset it if a new destination is needed. It has no real means of defense only able to escape any attackers by its agility. This device has a walking speed of 40 feet and a +2 to all Dexterity saving throws.</p>
 		</description>
 		<sheet display="false" />
 		<setters>
-			<set name="height" modifier="2d10">4'6"</set>
-			<set name="weight" modifier="1d4">90 lb.</set>
+			<set name="height" modifier="1d20">4'6"</set>
+			<set name="weight" modifier="1d4">300 lb.</set>
 		</setters>
 		<rules>
-			<stat name="intelligence" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CANTRIP" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE" />
+			<stat name="constitution" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CREATOR" />
 		</rules>
 	</element> 	
-	<element name="Elf Weapon Training" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING">
+	<element name="Creator" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_CREATOR">
 		<description>
-			<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+			<p>You have proficiency with Tinker's tools. Using those tools, you can spend 1 hour and 20gp worth of materials you can construct a Tiny clockwork device that serves a specific, simple function. They have an Armor Class of 6 and 2 hit points. The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.</p>
+			<p class="indent">Messenger- These constructs are kept small to be discreet, allowing them to travel unseen and deliver messages to whomever they were assigned to without being noticed. The message they carry can either be vocal or written, depending on the situation and once the message is delivered, and the recipient confirms they heard it, it immediately returns to its creator. This device has a walking speed of 10 feet and a flying speed of 30 feet.</p>
+			<p class="indent">Delivery- Usually made into the form of small animals or basic, bipedal machines with a compartment for holding whatever needs to be delivered. Once the parcel is received by its recipient it will return to its creator and it will only take a couple hours to reset it if a new destination is needed. It has no real means of defense only able to escape any attackers by its agility. This device has a walking speed of 40 feet and a +2 to all Dexterity saving throws.</p>
 		</description>
-		<sheet display="false">
-			<description>You have proficiency with the longsword, shortsword, shortbow, and longbow.</description>
+		<sheet display="true">
+			<description><p>You have proficiency with Tinker's tools. Using those tools, you can spend 1 hour and 20gp worth of materials you can construct a Tiny clockwork device that serves a specific, simple function. They have an Armor Class of 6 and 2 hit points. The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.</p>
+			<p class="indent">Messenger- These constructs are kept small to be discreet, allowing them to travel unseen and deliver messages to whomever they were assigned to without being noticed. The message they carry can either be vocal or written, depending on the situation and once the message is delivered, and the recipient confirms they heard it, it immediately returns to its creator. This device has a walking speed of 10 feet and a flying speed of 30 feet.</p>
+			<p class="indent">Delivery- Usually made into the form of small animals or basic, bipedal machines with a compartment for holding whatever needs to be delivered. Once the parcel is received by its recipient it will return to its creator and it will only take a couple hours to reset it if a new destination is needed. It has no real means of defense only able to escape any attackers by its agility. This device has a walking speed of 40 feet and a +2 to all Dexterity saving throws.</p></description>
 		</sheet>
-		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
-		</rules>
+		
 	</element>
-	<element name="Cantrip" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_CANTRIP">
+	<element name="Cantrip" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_CANTRIP">
 		<description>
 			<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
 		</description>
@@ -172,7 +169,7 @@
 			<select type="Spell" name="Wizard Cantrip (High Elf)" supports="Wizard&amp;&amp;0" />
 		</rules>
 	</element>
-	<element name="Extra Language" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE">
+	<element name="Extra Language" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE">
 		<description>
 			<p>You can speak, read, and write one extra language of your choice.</p>
 		</description>
@@ -182,105 +179,146 @@
 		</rules>
 	</element>
 
-	<element name="Wood Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_WOOD_ELF">
+	<element name="Trader" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_TRADER">
 		<supports>Evnir</supports>
 		<description>
-			<p>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</p>
+			<p>Trader Evnir are well known for their ability to socialize more than anything else. They're more friendly than any other Evnir and will engage any and everyone they meet, trying to talk their way into, or out of, any situation they come across. They quickly become knowledgeable in local customs and traditions and love meeting new people to learn what they can from them about the area. Traders also have an excellent sense of direction, never losing their way, be it on a mountain, a dense forest or an open field.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
-			<p class="indent"><strong><em>Elf Weapon Training.</em></strong> You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
-			<p class="indent"><strong><em>Fleet of Foot.</em></strong> Your base walking speed increases to 35 feet.</p>
-			<p class="indent"><strong><em>Mask of the Wild.</em></strong> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
-		</description>
+			<p class="indent"><strong><em>A Way With Words.</em></strong> Whenever you make an Charisma (Persuasion) check attempting to barter, trade or engage in some other commerce based activity, you are considered proficient in the Persuasion skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+					</description>
 		<sheet display="false" />
 		<setters>
-			<set name="height" modifier="2d10">4'6"</set>
-			<set name="weight" modifier="1d4">100 lb.</set>
+			<set name="height" modifier="1d20">4'6"</set>
+			<set name="weight" modifier="1d4">300 lb.</set>
 		</setters>
 		<rules>
 			<stat name="wisdom" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WAY_WITH_WORDS" />
 		</rules>
 	</element>
-	<element name="Fleet of Foot" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT">
+	<element name="A Way With Words" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_WAY_WITH_WORDS">
 		<description>
-			<p>Your base walking speed increases to 35 feet.</p>
+			<p>Whenever you make an Charisma (Persuasion) check attempting to barter, trade or engage in some other commerce based activity, you are considered proficient in the Persuasion skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
 		</description>
 		<sheet display="false">
-			<description>Your speed increases to 35 feet.</description>
+			<description>You have double proficiency on Persuasion checks while engaged in commerce-based activity.</description>
+		</sheet>
+		<rules>
+			<stat name="persuasion:proficiency" value="proficiency" bonus="double" alt="Double Proficiency" />
+		</rules>
+	</element>
+	
+	<element name="Soldier" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_SOLDIER">
+		<supports>Evnir</supports>
+		<description>
+			<p>Soldier Evnir are the only Evnir that look physically different in appearance, their normally pale, white skin is instead deep silver color. Their skin doesn't seem to be any thicker than other Evnir, although it does seem to have a better resistance to it than other Evnir. </p>
+			<p class="indent">They're more formal and less talkative than most other Evnir, but only to other races. They're friendly with members of their own race, but can be a bit on the protective side when others approach their group.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Silver Skinned.</em></strong> While unarmored, your Armor Class is equal to 13 + your Dexterity modifier. You can use a shield and still gain this benefit.</p>
+			
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="1d20">4'6"</set>
+			<set name="weight" modifier="1d6">300 lb.</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SILVER_SKINNED" />
+			</rules>
+	</element>
+	<element name="Silver Skinned" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SILVER_SKINNED">
+		<description>
+			<p>While unarmored, your Armor Class is equal to 13 + your Dexterity modifier. You can use a shield and still gain this benefit.</p></description>
+		<sheet>
+			<description>While unarmored, your Armor Class is equal to 13 + your Dexterity modifier. You can use a shield and still gain this benefit.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:silvered skin soldier:base" value="13" />
+			<stat name="ac:silvered skin soldier:dexterity" value="dexterity:modifier" />
+			<stat name="ac:silvered skin soldier" value="ac:silvered skin soldier:base" />
+			<stat name="ac:silvered skin soldier" value="ac:silvered skin soldier:dexterity" />
+			
+			<stat name="ac:calculation" value="ac:silvered skin soldier" bonus="calculation" equipped="[armor:none]" alt="Silvered Skin (Soldier)" />
+		</rules>
+	</element>
+	
+		<element name="Scholar" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_SCHOLAR">
+		<supports>Evnir</supports>
+		<description>
+			<p>Always curious and always willing to listen, Scholar Evnir are always out the hunt for new knowledge and new things to discover. They love to delve into the knowledge of the land they've woken up in and investigating the different stories and legends that the people of the land have, taking special care to find the honest roots of stories and artifacts. Despite their nature of enjoying learning, they also enjoy discovering things as well, often wandering freely to do research on whatever they're working on, fearlessly exploring ruins and ancient temples to find whatever clues they can.
+ .</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom or Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Naturally Curious.</em></strong> You are proficient in the Investigation skill.</p>
+			<p class="indent"><strong><em>Keen Mind.</em></strong> You always know which way is North. You always know the number of hours left before the next sunrise or sunset. You can accurately recall anything you have seen or heard within the past month.</p>
+			
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="1d20">4'6"</set>
+			<set name="weight" modifier="1d4">300 lb.</set>
+		</setters>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Scholar)" supports="ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM" />
+			<grant type="Racial Trait" id="ID_RACIAL_NATURALLY_CURIOUS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_MIND" />
+		</rules>
+	</element>
+	<element name="Naturally Curious" type="Racial Trait" source="Homebrew" id="ID_RACIAL_NATURALLY_CURIOUS">
+		<description>
+			<p>You are proficient in the Investigation skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient in the Investigation skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+		</rules>
+	</element>
+	<element name="Keen Mind" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_KEEN_MIND">
+		<description>
+			<p>You always know which way is North. You always know the number of hours left before the next sunrise or sunset. You can accurately recall anything you have seen or heard within the past month.</p>
+		</description>
+		<sheet>
+			<description>You always know which way is North. You can tell how many hours before next sunrise or sunset. You can accurately remember anything seen or heard from the past month.</description>
+		</sheet>
+	</element>
+		<element name="Pathfinder" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_PATHFINDER">
+		<supports>Evnir</supports>
+		<description>
+			<p>Knowing that a path needs to be cut through the wilderness, these Evnir are always out at the front, blazing new trails and watching for dangers that could arise along the way. Unlike the rest of their kind, their gear make up lets them move quietly, not having to worry about the usual noise of gears and springs clicking and moving inside of them, possibly giving away their position, letting them hide and observe without the fear of being detected as easily. While still open and friendly like the rest of their kind, but always seeming to be on the watch for what is to come.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Silent Running.</em></strong> Your internal make up runs quieter now. Your Dexterity (Stealth) checks are no longer done at a disadvantage.</p>
+			<p class="indent"><strong><em>Path Clearer.</em></strong> Difficult terrain doesn't slow your group's travel and you cannot become lost except by magical means.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="1d20">4'6"</set>
+			<set name="weight" modifier="1d4">300 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SILENT_RUNNING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_PATH_CLEARER" />
+		</rules>
+	</element>
+	<element name="Silent Running" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SILENT_RUNNING">
+		<description>
+			<p>Your internal make up runs quieter now. Your Dexterity (Stealth) checks are no longer done at a disadvantage.</p>
+		</description>
+		<sheet display="false">
+			<description>Your Dexterity (Stealth) checks are no longer done at a disadvantage.</description>
 		</sheet>
 		<rules>
 			<stat name="innate speed" value="35" bonus="base" />
 		</rules>
 	</element>
-	<element name="Mask of the Wild" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD">
+	<element name="Path Clearer" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_PATH_CLEARER">
 		<description>
-			<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+			<p>Difficult terrain doesn't slow your group's travel and you cannot become lost except by magical means.</p>
 		</description>
 		<sheet>
-			<description>You can attempt to hide even when you are only lightly obscured.</description>
+			<description>Difficult terrain doesn't slow your group's travel and you cannot become lost except by magical means.</description>
 		</sheet>
-	</element>
-
-	<element name="Dark Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_DARK_ELF">
-		<supports>Evnir</supports>
-		<description>
-			<p>Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.</p>
-			<p class="indent">Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
-			<p class="indent"><strong><em>Superior Darkvision.</em></strong> Your darkvision has a radius of 120 feet.</p>
-			<p class="indent"><strong><em>Sunlight Sensitivity.</em></strong> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
-			<p class="indent"><strong><em>Drow Magic.</em></strong> You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
-			<p class="indent"><strong><em>Drow Weapon Training.</em></strong> You have proficiency with rapiers, shortswords, and hand crossbows.</p>
-		</description>
-		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d6">4'5"</set>
-			<set name="weight" modifier="1d6">75 lb.</set>
-		</setters>
-		<rules>
-			<stat name="charisma" value="1" />
-			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_MAGIC" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING" />
-		</rules>
-	</element>
-	<element name="Sunlight Sensitivity" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY">
-		<description>
-			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
-		</description>
-		<sheet>
-			<description>You have disadvantage on attack rolls and on Perception checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
-		</sheet>
-	</element>
-	<element name="Drow Magic" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DROW_MAGIC">
-		<description>
-			<p>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
-		</description>
-		<sheet>
-			<description>Dancing Lights. (Spellcasting: Charisma)</description>
-			<description level="3">1/day Dancing Lights and Faerie Fire. (Spellcasting: Charisma)</description>
-			<description level="5">1/day Dancing Lights, Faerie Fire, and Darkness. (Spellcasting: Charisma)</description>
-		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" level="1" />
-			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" />
-		</rules>
-	</element>
-	<element name="Drow Weapon Training" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING">
-		<description>
-			<p>You have proficiency with rapiers, shortswords, and hand crossbows.</p>
-		</description>
-		<sheet display="false">
-			<description>You have proficiency with rapiers, shortswords, and hand crossbows.</description>
-		</sheet>
-		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
-		</rules>
 	</element>
 </elements>
