@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="1.0">
+
+      <file name="evnir.index" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/evnir.index" />
+    </update>
+  </info>
+  <files>
+    <file name="race-evnir.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew/races/race-evnir.xml" />
+	<file name="evnir-feats.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew/races/evnir-feats.xml" />
+	
+  </files>
+</index>
