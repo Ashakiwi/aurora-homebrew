@@ -21,6 +21,7 @@
         </sheet>
         <rules>
           <stat name="constitution" value="1" />
+		  <stat name="initiative:misc" value="proficiency:half" />
           
           
         </rules>
@@ -55,7 +56,7 @@
             <p class="indent">You gain proficiency in the Stealth skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</p>
         </description>
         <sheet>
-            <description>You are a sneaky robot. you no longer have disadvantage on Stealth checks.</description>
+            <description>You are a sneaky robot. You no longer have disadvantage on Stealth checks.</description>
         </sheet>
         <rules>
           <stat name="dexterity" value="1" />
