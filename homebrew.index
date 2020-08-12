@@ -8,6 +8,8 @@
   </info>
   <files>
     <file name="homebrew.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew/homebrew.xml" />
-
+	<file name="race-evnir.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew/races/race-evnir.xml" />
+	<file name="evnir-feats.xml" url="https://raw.githubusercontent.com/Ashakiwi/aurora-homebrew/master/homebrew/races/evnir-feats.xml" />
+	
   </files>
 </index>
