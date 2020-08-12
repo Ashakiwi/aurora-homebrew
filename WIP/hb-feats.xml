@@ -94,7 +94,7 @@
             <p class="indent">You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</p>
         </description>
         <sheet>
-            <description>You can operate for twice your proficiency bonus without rewinding. Add half of your proficiency rounded down to your Initiative.</description>
+            <description>You can see in greyscale in darkness within 60 feet of you as if it were dim light, and in dim light you can see as if in bright light within 60 feet of yourself. </description>
         </sheet>
         <rules>
           <stat name="wisdom" value="1" />
@@ -119,7 +119,7 @@
         </sheet>
         <rules>
            <stat name="dexterity" value="1" />
-          <stat name="speed:swim" value="30" bonus="base" />
+          <stat name="speed:swim" value="speed" bonus="base" />
         </rules>
     </element>
 	
