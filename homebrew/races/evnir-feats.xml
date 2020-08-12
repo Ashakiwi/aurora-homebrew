@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Homebrew Feats</name>
+        <description>Feats for Homebrew</description>
+        <file name="evnir-feats.xml" url="" />
+		<update version="0.1.9">
+			<file name="evnir-feats.xml" url="" />
+		</update>
+    </info>
+    <element name="Replacement Springs" type="Feat" source="Homebrew" id="ID_WIKI_FEAT_REPLACEMENT_SPRINGS">
+        <prerequisite>Evnir</prerequisite>
+        <requirements>ID_RACE_EVNIR</requirements>
+        <description>
+            <p><i>Prerequisite: Evnir</i></p>
+            <p>Forgoing the original springs you were built with, you had a different makeup of springs installed to help keep your gears moving. Rather than having a large winding key sticking from your back now, you carry around a small device that winds a series of increasingly larger springs that power you. The device can easily be kept hidden in a small compartment somewhere on your body.</p>
+            <p class="indent">Your Constitution score increases by 1.</p>
+            <p class="indent">You can continue to operate for a number of days equal to twice your proficiency bonus before needing to rewind yourself.</p>
+            <p class="indent">You may add half your proficiency bonus rounded down, minimum of 1, to your initiative bonus.</p>
+        </description>
+        <sheet>
+            <description>You can operate for twice your proficiency bonus without rewinding. Add half of your proficiency rounded down to your Initiative.</description>
+        </sheet>
+        <rules>
+          <stat name="constitution" value="1" />
+		  <stat name="initiative" value="proficiency:half" />
+          
+          
+        </rules>
+    </element>
+        <element name="Built in Weaponry" type="Feat" source="Homebrew" id="ID_WIKI_FEAT_BUILT_IN_WEAPONRY">
+        <prerequisite>Evnir</prerequisite>
+        <requirements>ID_RACE_EVNIR</requirements>
+        <description>
+            <p><i>Prerequisite: Evnir</i></p>
+            <p>All it took was reworking some of the gears inside of an area of your body to conceal a weapon that you can deploy and use when you need it.</p>
+            <p class="indent">Your Dexterity score increases by 1.</p>
+            <p class="indent">You have a weapon that can be deployed or hidden using a bonus action from an area of your choice on your body such as your arm, wrist, foot, or hand. This weapon must have the light weapon property and once deployed may be removed for throwing or other needs.</p>
+            <p class="indent">Due to the alteration on your body, the place where the blade is hidden can be spotted with a Wisdom (Perception) check contested by either a Charisma (Deception) or Dexterity (Stealth) check.</p>
+        </description>
+        <sheet>
+            <description>You can deploy a light weapon that is hidden on your frame. This can be detected with a Wisdom (Perception) check contested by either a Charisma (Deception) or Dexterity (Stealth) check.  </description>
+        </sheet>
+        <rules>
+          <stat name="dexterity" value="1" />
+          
+          
+        </rules>
+    </element>
+        <element name="Stealth Augment" type="Feat" source="Homebrew" id="ID_WIKI_FEAT_STEALTH_AUGMENT">
+        <prerequisite>Evnir</prerequisite>
+        <requirements>ID_RACE_EVNIR</requirements>
+        <description>
+            <p><i>Prerequisite: Evnir</i></p>
+        <p>All of the gears and springs that made noise inside of your body are replaced with gears that run much smoother and quieter, allowing you to hide with ease without the worry of being given away by your internal makeup. During this upgrade, you also were able to improve your ability to remain through the silencing of footsteps and other alterations.</p>
+            <p class="indent">Your Dexterity score increases by 1.</p>
+            <p class="indent">You no longer make noise while in operation. You are no longer suffer from disadvantage on Dexterity (Stealth) checks due to your Sound of Gears trait.</p>
+            <p class="indent">You gain proficiency in the Stealth skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</p>
+        </description>
+        <sheet>
+            <description>You are a sneaky robot. You no longer have disadvantage on Stealth checks.</description>
+        </sheet>
+        <rules>
+          <stat name="dexterity" value="1" />
+          <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+    </element>
+        <element name="Refractive Plating" type="Feat" source="Homebrew" id="ID_WIKI_FEAT_REFRACTIVE_PLATING">
+        <prerequisite>Evnir</prerequisite>
+        <requirements>ID_RACE_EVNIR</requirements>
+        <description>
+            <p><i>Prerequisite: Evnir</i></p>
+            <p>The plating that covers everything on an Evnir's body is replaced with plating that is capable of bending light so that you may blend into your surroundings.</p>
+            <p class="indent">Your Dexterity score increases by 1.</p>
+            <p class="indent">As an action, you can become invisible for 1 minute. Each time you use this feature you lose one days worth of time before you need to rewind your key. If you only have a day left worth of time or less you cannot use this feature.</p>
+           
+        </description>
+        <sheet>
+            <description>You can become invisible for one minute at the cost of one day of winding time. This takes an action. </description>
+        </sheet>
+        <rules>
+          <stat name="dexterity" value="1" />
+          
+          
+        </rules>
+    </element>
+        <element name="Enhanced Optics" type="Feat" source="Homebrew" id="ID_WIKI_FEAT_ENHANCED_OPTICS">
+        <prerequisite>Evnir</prerequisite>
+        <requirements>ID_RACE_EVNIR</requirements>
+        <description>
+            <p><i>Prerequisite: Evnir</i></p>
+            <p>Replacing the eyes that they were originally made with, these are made to adapt better to the conditions that they've found themselves in.</p>
+            <p class="indent">Your Wisdom score increases by 1.</p>
+            <p class="indent">You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent">You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.</p>
+        </description>
+        <sheet>
+            <description>You can see in greyscale in darkness within 60 feet of you as if it were dim light, and in dim light you can see as if in bright light within 60 feet of yourself. </description>
+        </sheet>
+        <rules>
+          <stat name="wisdom" value="1" />
+          <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        	<grant type="Vision" id="ID_VISION_DARKVISION" />
+	
+        </rules>
+    </element>
+	    <element name="Lightweight Materials" type="Feat" source="Homebrew" id="ID_WIKI_FEAT_LIGHTWEIGHT_MATERIALS">
+        <prerequisite>Evnir</prerequisite>
+        <requirements>ID_RACE_EVNIR</requirements>
+        <description>
+            <p><i>Prerequisite: Evnir</i></p>
+            <p>All of the outside plating, along with all of the heavier gears and systems inside of the Evnir are replaced with lighter materials, giving the Evnir more mobility and weight more comparable to an average human.</p>
+            <p class="indent">Your Dexterity score increases by 1.</p>
+            <p class="indent">You gain a swimming speed equal to your walking speed and no longer sink while in water.</p>
+            <p class="indent">You can take the dash action as a bonus action.</p>
+        </description>
+        <sheet>
+            <description>
+           You are now lightweight. Your swim speed is equal to your walking speed. You can dash as a bonus action.  </description>
+        </sheet>
+        <rules>
+           <stat name="dexterity" value="1" />
+          <stat name="speed:swim" value="speed" bonus="base" />
+        </rules>
+    </element>
+	
+	<!--
+<rules>
+<stat name="persuasion:proficiency" value="proficiency" bonus="double" alt="Double Proficiency" />
+<stat name="strength" value="1" />
+   <select type="Ability Score Improvement" name="Ability Score Improvement (Dragon Fear)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_CHARISMA" />
+            <stat name="dragon fear:dc" value="8" />
+            <stat name="dragon fear:dc" value="proficiency" />
+            <stat name="dragon fear:dc" value="charisma:modifier" />
+-->
+</elements>
